@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Note: you don't have to provide the exact path -->
+    <!-- Express is already looking for our files in the public folder -->
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <!--
+        If your file is inside a directory on the public folder
+         You have to do like this 
+         <link rel="stylesheet" href="directory/file.extension">
+    -->
+    
+    <!--
+        Same goes for the script
+        <script src="js/index.js"></script>
+    -->
+
+    <link rel="icon" href="https://nodejs.org/static/images/logo.svg">
+
+    <title>
+        <%= locals.title || "Express template by Cynic" %>
+    </title>
+
+</head>
+<body>
+
+    <!-- These codes are not really neccessary -->
+    <!-- Change it according to what you want-->
+    <div class="container">
+        <img src="https://avatars.githubusercontent.com/u/89867709?v=4" alt="Cynic" width="200px">
+
+        <h1>
+            Welcome
+            <span style="color: rgb(48, 85, 248);">
+                <%= locals.username || "User" %>
+            </span>
+        </h1>
+        <p>
+            Edit your <code>src/views/index.ejs</code> to make changes
+        </p>
+    </div>
+    
+</body>
+</html>

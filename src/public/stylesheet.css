@@ -1,0 +1,45 @@
+/* You don't really need these CSS codes*/
+
+/* Just for displaying the text nicely and for example */
+
+body {
+    background-color: #0b0b17;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+code {
+    font-size: 15px;
+    color: #f96767;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    top: 200px;
+}
+
+.container img {
+    border-radius: 60%;
+    position: relative;
+    animation: logo 4s infinite;
+}
+
+.container h1 span {
+    color: rgb(48, 85, 248);
+}
+
+@keyframes logo {
+    0% {
+        top: 5px;
+    }
+    50% {
+        top: 30px;
+    }
+    100% {
+        top: 5px;
+    }
+}

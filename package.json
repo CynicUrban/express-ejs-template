@@ -1,0 +1,29 @@
+{
+  "name": "expressjs-ejstemplate",
+  "version": "1.0.0",
+  "description": "A basic starter template, for making a website using NodeJS, Express and Ejs.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CynicUrban/express-ejs-template.git"
+  },
+  "keywords": [
+    "express",
+    "template",
+    "ejs",
+    "node"
+  ],
+  "author": "CynicUrban",
+  "bugs": {
+    "url": "https://github.com/CynicUrban/express-ejs-template/issues"
+  },
+  "homepage": "https://github.com/CynicUrban/express-ejs-template#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "glob": "^7.1.7"
+  }
+}
